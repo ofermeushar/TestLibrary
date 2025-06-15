@@ -1,5 +1,5 @@
-(function(global) {
-  class Animal {
+
+ export class Animal {
   name: string = "";
   age: number;
   isCute: boolean = true;
@@ -17,8 +17,4 @@
   }
 }
 
-  // חושפים את המחלקה דרך אובייקט גלובלי
-  global.myLib = {
-    Animal: Animal
-  };
-})(this);
+
