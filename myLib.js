@@ -1,4 +1,4 @@
- export class Animal {
+class Animal {
   name: string = "";
   age: number;
   isCute: boolean = true;
@@ -16,4 +16,4 @@
   }
 }
 
-
+window.Animal = Animal;
